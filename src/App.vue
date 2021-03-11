@@ -1,21 +1,23 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-   
+    <router-view/>
+    <main-tab-bar></main-tab-bar>
   </div>
 </template>
 
 <script>
 
+import MainTabBar from 'components/content/MainTabBar'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  components:{
+    MainTabBar
   }
+  
 }
 </script>
 
 <style>
-
+ @import 'assets/css/base'
 </style>
