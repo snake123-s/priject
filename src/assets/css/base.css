@@ -83,12 +83,15 @@ a{
 }
 .left,.right{
     width:60px;
+
     
 }
 .center{
     flex:1;
+    
    
 }
 .home-nav{
-    background: red
+    background: red;
+    color: #fff;
 }
