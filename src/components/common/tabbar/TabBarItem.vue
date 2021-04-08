@@ -1,11 +1,8 @@
 <template>
     <div class="tab-bar-item">
-        <!-- <div >首页</div>
-        <div >分类</div>
-        <div >购物车</div>
-        <div  >我的</div> -->
-        <!-- <div :class="{active:isActive}" @click='btn'><slot name="item-text"></slot></div> -->
-        <div :style="activeStyle" @click='btn'><slot name="item-text"></slot></div>
+        <div :style="activeStyle" @click='btn'>
+            <slot name="item-text"></slot>
+        </div>
     </div>
     
 </template>

@@ -5,6 +5,7 @@
     /* 定义变量 */
     --color-text: #666;
     --color-high-text:#ff5777;
+    --color-tint:#ff8198;
     --color-background:#fff;
     --font-size:14px;
     --line-height:1.5
@@ -57,8 +58,8 @@ a{
 
 #tab-bar{
     display: flex;
-    background: #f6f6f6;
-    position: absolute;
+    background: hsl(0, 0%, 96%);
+    position: fixed;
     left: 0px;
     right: 0px;
     bottom: 0px;
@@ -92,6 +93,17 @@ a{
    
 }
 .home-nav{
-    background: red;
+    background: var(--color-tint);
     color: #fff;
+    /* position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+   */
+}
+#home{
+    /* padding-top: 44px; */
+    /*视口高度 */
+    height: 100vh; 
+
 }
